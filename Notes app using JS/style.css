@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  width: 100%;
+}
+
+body {
+  background-color: rgb(34, 33, 33);
+  position: relative;
+}
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.add-task {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px 10px;
+}
+.add-task button {
+  background-color: rgb(11, 75, 11);
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+.add-task button i {
+  padding: 0px 5px;
+}
+
+.container {
+  background-color: rgb(15, 17, 17);
+  position: absolute;
+  top: 15%;
+  left: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.container .upper-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .upper-section i {
+  padding: 8px 15px;
+  color: white;
+}
+
+textarea {
+  width: 350px;
+  outline: none;
+  min-height: 220px;
+  resize: none;
+  font-size: 1.2vw;
+  margin: 5px;
+  padding: 10px;
+}
+i {
+  cursor: pointer;
+  color: white;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 30px;
+}
+
+
+@media (max-width:450px) {
+  body {
+    width: 100%;
+
+    background-color: rgb(34, 33, 33);
+    position: relative;
+  }
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.add-task {
+  position: fixed;
+  top: 10%;
+  right: 0;
+  padding: 20px 10px;
+}
+.add-task button {
+  background-color: rgb(11, 75, 11);
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  cursor: pointer;
+}
+.add-task button i {
+  padding: 0px 5px;
+}
+
+.container {
+  background-color: rgb(15, 17, 17);
+  position: absolute;
+  /* top: 15%;
+  left: 35%; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 5px 0;
+  border-radius: 10px;
+}
+.container .upper-section {
+  display: flex;
+  justify-content: flex-end;
+}
+.container .upper-section i {
+  padding: 8px 15px;
+  color: white;
+}
+
+textarea {
+  width: 350px;
+  outline: none;
+  min-height: 220px;
+  resize: none;
+  font-size: 1.2vw;
+  margin: 5px;
+  padding: 10px;
+}
+i {
+  cursor: pointer;
+  color: white;
+}
+.body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 30px 30px;
+}
+
+}
